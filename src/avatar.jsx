@@ -16,7 +16,6 @@ class Avatar extends React.Component {
     closeIconColor: 'white',
     lineWidth: 4,
     minCropRadius: 30,
-    backgroundColor: 'grey',
     mimeTypes: 'image/jpeg,image/png',
     mobileScaleSpeed: 0.5, // experimental
     onClose: () => {
