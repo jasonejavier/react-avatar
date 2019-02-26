@@ -38,12 +38,6 @@ class Avatar extends React.Component {
       fontFamily: 'sans-serif',
       cursor: 'pointer'
     },
-    borderStyle: {
-      border: '2px solid #979797',
-      borderStyle: 'dashed',
-      borderRadius: '8px',
-      textAlign: 'center'
-    }
   };
 
   constructor(props) {
@@ -482,7 +476,7 @@ class Avatar extends React.Component {
       <div>
         {
           this.state.showLoader
-            ? <div style={borderStyle}>
+            ? <div class="upload-wrapper">
               <input
                 onChange={(e) => this.onFileLoad(e)}
                 name={this.loaderId} type="file"
